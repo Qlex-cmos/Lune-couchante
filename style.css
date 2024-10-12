@@ -1,0 +1,51 @@
+/* body {
+  background: red;
+} */
+
+* {
+  font-family: "Inter Tight";
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+h1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 5% 0 50px;
+  color: rgb(10, 82, 10);
+  text-transform: uppercase;
+  text-decoration: overline;
+  font-style: italic;
+}
+
+/* Le but serait de faire passer le h1 en un autre titre quand on le hover */
+h1:hover {
+  visibility: hidden;
+  transition: 0.5s ease-out;
+}
+
+nav {
+  background: rgb(10, 82, 10);
+  color: goldenrod;
+}
+
+li {
+  list-style: none;
+  font-size: larger;
+  text-transform: uppercase;
+  font-style: italic;
+  cursor: pointer;
+}
+
+li:hover {
+  transform: scale(1.2);
+  transition: 0.2s ease;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
